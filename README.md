@@ -12,7 +12,8 @@ SMSLink Live Update allows performing operations on a SMSLink account, operation
 
 ## Featured Functions
 
-- *$liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");* - Instantiates the SMSLinkLiveUpdate class for performing various operations
+Use, for example, *$liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");* to instantiate the SMSLinkLiveUpdate class for performing various operations, such as:
+
 - *$liveUpdate->blacklistAdd()* - Adds a Phone Number to the Blacklist in your SMSLink account
 - *$liveUpdate->blacklistRemove()* - Removes a Phone Number from the Blacklist in your SMSLink account     
 - *$liveUpdate->isBlacklisted()* - Checks if Phone Number is in the Blacklist in your SMSLink account
