@@ -4,10 +4,10 @@
  *
  *   Live Update integration with SMSLink.ro
  *   
- *     SMSLink Live Update allows you to perform various operations on your SMSLink account, using Live Update API. 
- *
- *     Supports HTTP and HTTPS protocols
- *     Supports PHP cURL GET, PHP cURL POST and file_get_contents()
+ *     SMSLink Live Update allows you to perform various operations on your SMSLink account, using Live Update API, such as:
+ *     
+ *     Blacklist Phone Number Add/Remove/Verify
+ *     Contact Create/Remove/Update
  *
  *   Featured Functions of SMSLinkLiveUpdate class
  *   
@@ -31,9 +31,14 @@
  *     $liveUpdate->removeContact(...)
  *         Removes a Phone Number from a Specified Group or from All Groups in your SMSLink account
  *
+ *   Features
+ *   
+ *     Supports HTTP and HTTPS protocols
+ *     Supports PHP cURL GET, PHP cURL POST and file_get_contents()
+ *
  *   Usage:
  *
- *     See Usage Examples for the SMSLinkLiveUpdate() class starting on line 654
+ *     See Usage Examples for the SMSLinkLiveUpdate() class starting on line 659
  *
  *     Get your SMSLink / SMS Marketing / Live Update Connection ID and Password from
  *         https://www.smslink.ro/get-live-update-api-key/
