@@ -12,7 +12,7 @@ SMSLink Live Update allows performing operations on a SMSLink account, operation
 
 ## Featured Functions
 
-- *$liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");* - Instantiate SMSLinkLiveUpdate class
+- *$liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");* - Instantiates the SMSLinkLiveUpdate class for performing various operations
 - *$liveUpdate->blacklistAdd()* - Adds a Phone Number to the Blacklist in your SMSLink account
 - *$liveUpdate->blacklistRemove()* - Removes a Phone Number from the Blacklist in your SMSLink account     
 - *$liveUpdate->isBlacklisted()* - Checks if Phone Number is in the Blacklist in your SMSLink account
@@ -36,6 +36,14 @@ The [complete documentation](https://smslink.ro/sms-marketing-documentatie-live-
 ## SMS Sending using SMSLink.ro
 
 In order to send SMS using SMSLink.ro, please see SMSLink.ro API, called SMS Gateway. SMSLink.ro allows you to send SMS to all mobile networks in Romania and also to more than 168 countries and more than 1000 mobile operators worldwide. The [complete documentation](https://www.smslink.ro/sms-gateway-documentatie-sms-gateway.html) of the SMSLink - SMS Gateway API can be found [here](https://www.smslink.ro/sms-gateway-documentatie-sms-gateway.html), describing all available APIs (HTTP GET / POST, SOAP / WSDL, JSON and more).
+
+Examples for SMS Gateway (HTTP), SMS Gateway (SOAP), SMS Gateway (JSON) or SMS Gateway (BULK) can be found here:
+
+- SMS Gateway (HTTP): https://github.com/SMSLink-ro/Example-for-sending-SMS-using-PHP-cURL/blob/master/main.php
+- SMS Gateway (SOAP): https://github.com/SMSLink-ro/Example-for-sending-SMS-using-PHP-SoapClient/blob/master/main.php
+- SMS Gateway (JSON): https://github.com/SMSLink-ro/Example-for-sending-SMS-using-PHP-cURL-with-JSON/blob/master/main.php
+- SMS Gateway (BULK) Endpoint Version 1: https://github.com/SMSLink-ro/Example-for-sending-SMS-using-PHP-with-BULK-Endpoint-ver.-1/blob/master/main.php
+- SMS Gateway (BULK) Endpoint Version 3: https://github.com/SMSLink-ro/Example-for-sending-SMS-using-PHP-with-BULK-Endpoint-ver.-3/blob/master/main.php
 
 SMSLink also provides modules for major eCommerce platforms (on-premise & on-demand), integrations using Microsoft Power Automate, Zapier or Integromat and many other useful features. Read more about all available features [here](https://www.smslink.ro/sms-gateway.html). 
 
