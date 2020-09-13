@@ -3,21 +3,45 @@
 /**
  *
  *   Live Update integration with SMSLink.ro
+ *   
+ *     SMSLink Live Update allows you to perform various operations on your SMSLink account, using Live Update API. 
  *
  *     Supports HTTP and HTTPS protocols
  *     Supports PHP cURL GET, PHP cURL POST and file_get_contents()
  *
+ *   Featured Functions of SMSLinkLiveUpdate class
+ *   
+ *     $liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");
+ *     
+ *     $liveUpdate->blacklistAdd(...)
+ *         Adds a Phone Number to the Blacklist in your SMSLink account
+ *     
+ *     $liveUpdate->blacklistRemove(...)    
+ *         Removes a Phone Number from the Blacklist in your SMSLink account     
+ *     
+ *     $liveUpdate->isBlacklisted(...)
+ *         Checks if Phone Number is in the Blacklist in your SMSLink account
+ *         
+ *     $liveUpdate->createContact(...)    
+ *         Creates a Contact into a Specified Group in your SMSLink account
+ *     
+ *     $liveUpdate->updateContact(...)
+ *         Updates a Contact from a Specified Group in your SMSLink account
+ *     
+ *     $liveUpdate->removeContact(...)
+ *         Removes a Phone Number from a Specified Group or from All Groups in your SMSLink account
+ *
+ *   Usage:
+ *
+ *     See Usage Examples for the SMSLinkLiveUpdate() class starting on line 654
+ *
+ *     Get your SMSLink / SMS Marketing / Live Update Connection ID and Password from
+ *         https://www.smslink.ro/get-live-update-api-key/
+ *          
  *   System Requirements:
  *
  *     PHP 5 with
  *         CURL enabled or file_get_contents with allow_url_fopen to be set to 1 in php.ini
- *
- *   Usage:
- *
- *     See Usage Examples for the SMSLinkLiveUpdate() class starting on line 630
- *
- *     Get your SMSLink / SMS Marketing / Live Update Connection ID and Password from
- *         https://www.smslink.ro/get-live-update-api-key/
  *
  *   @version    1.0
  *   @see        https://www.smslink.ro/sms-marketing-documentatie-live-update.html
@@ -435,7 +459,7 @@ class SMSLinkLiveUpdate
     }
     
     /**
-     *   Checks is Phone Number is in the Blacklist
+     *   Checks if Phone Number is in the Blacklist
      *
      *   @param string     $phoneNumber              Phone Number
      *
@@ -653,7 +677,7 @@ class SMSLinkLiveUpdate
  *
  *
  */
-$liveUpdate = new SMSLinkLiveUpdate("MyConnectionID", "MyPassword");
+$liveUpdate = new SMSLinkLiveUpdate("MyLiveUpdateConnectionID", "MyLiveUpdatePassword");
 
 /*
  *     Sets the method in which the parameters are sent to Live Update
