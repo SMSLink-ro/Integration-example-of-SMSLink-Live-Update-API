@@ -896,7 +896,7 @@ echo "<b>Example for Updating a Contact in a Group</b><br />";
 $liveUpdateResult = $liveUpdate->updateContact(
                             "07xyzzzzzz",
                             54321,
-                            "Popescu Gabriel George",
+                            "Nume Prenume",
                             array(
                                 "dynamic_variabile_1" => "... valoare actualizata 1 ...",
                                 "dynamic_variabile_2" => "... valoare actualizata 2 ...",
