@@ -3,7 +3,7 @@
 SMSLink Live Update allows performing operations on a SMSLink account, operations such as: 
 
 - Blacklist Phone Number Add/Remove/Verify
-- Contact Create/Remove/Update. 
+- Contact Create/Remove/Update
 
 ## Requirements & Usage
 
