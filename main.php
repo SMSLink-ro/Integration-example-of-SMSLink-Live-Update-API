@@ -87,8 +87,8 @@ class SMSLinkLiveUpdate
      *   Initializing Live Update will require the parameters $connection_id and $password. $connection_id and $password can be generated at
      *   https://www.smslink.ro/sms/marketing/liveupdate.php after authenticated with your account credentials.
      *
-     *   @param string    $connection_id     SMSLink - SMS Gateway - Connection ID
-     *   @param string    $password          SMSLink - SMS Gateway - Password
+     *   @param string    $connection_id     SMSLink - Live Update - Connection ID
+     *   @param string    $password          SMSLink - Live Update - Password
      *
      *   @return void
     */
