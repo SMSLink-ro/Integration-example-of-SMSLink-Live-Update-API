@@ -838,7 +838,7 @@ echo "<b>Example for Creating a Contact in a Group</b><br />";
 $liveUpdateResult = $liveUpdate->createContact(
                         "07xyzzzzzz", 
                         54321, 
-                        "Popescu Gabriel", 
+                        "Nume Prenume", 
                         array(
                             "dynamic_variabile_1" => "... valoare 1 ...",
                             "dynamic_variabile_2" => "... valoare 2 ...",
